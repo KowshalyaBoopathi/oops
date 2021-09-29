@@ -6,12 +6,14 @@ interface MyInterface1{
 	      System.out.println("display method of MyInterface1");
 	   }
 	}
+
 	interface MyInterface2{
 	   public static int num = 1000;
 	   public default void display() {
 	      System.out.println("display method of MyInterface2");
 	   }
 	}
+	
 	public class InterfaceInJava implements MyInterface1, MyInterface2{
 	   public void display() {
 	      MyInterface1.super.display();

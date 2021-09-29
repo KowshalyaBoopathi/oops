@@ -1,7 +1,7 @@
 package com.oops;
 
 public class Shape {
-		  public void area() {
+		public void area() {
 		    System.out.println("Find area ");
 		  }
 		public void area(int r) {
