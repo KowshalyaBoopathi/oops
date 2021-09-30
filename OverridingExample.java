@@ -14,12 +14,12 @@ public class OverridingExample {
 		    
 		  }
 }
-		
 
-		class Shapes {
-	
-	//overriding//run time//dynamic
-	
+
+//overriding//run time//dynamic
+
+
+		class Shapes {	
 		  public void area() {
 		    System.out.println("The formula for area of ");
 		  }
