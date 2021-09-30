@@ -22,13 +22,13 @@ interface Rose {
 		System.out.println("Rose is bloooming");
 	}
 }
-
+//hoe interfaces solve multiple inheritance problem.
 class RedRose implements Flower, Rose {		
 	@Override
 	public void type() {
 		System.out.println("RedRose is of flower type");
 	}
-
+//auto suggestion.
 	@Override
 	public void bloom() {
 		Flower.super.bloom();
