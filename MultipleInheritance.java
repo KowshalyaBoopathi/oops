@@ -3,12 +3,16 @@ package com.oops;
 public class MultipleInheritance {
 	
 	public static void main(String[] args) {
-	Rose rose=new RedRose();
-	//rose.type();
+	//downcasting;	
+	Rose rose1=new RedRose();
+	RedRose rose=(RedRose)rose1;
+	
+	// RedRose rose=new RedRose();
+	rose.type();
 	rose.bloom();
 	}
 }
-
+//implement all method in interfaces
 
 interface Flower {
 	default void bloom() {
@@ -32,6 +36,7 @@ class RedRose implements Flower, Rose {
 	@Override
 	public void bloom() {
 		Flower.super.bloom();
+		Rose.super.bloom();
 	}
 }
 

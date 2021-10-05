@@ -25,7 +25,7 @@ class Watermelon extends Fruit {
 		System.out.println("Watermelon is in green color");
 	}
 }
-//what about water melon class???
+
 class GreenBanana extends Banana {
 	void twocolor() {
 		System.out.println("Banana is in green color");

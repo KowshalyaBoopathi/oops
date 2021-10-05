@@ -2,7 +2,7 @@ package com.oops;
 
 public class CalculateAbstractClass {
 	public static void main(String[] args) {
-		Addition add=new Addition();
+		Calculate add=new Addition();
 		Subtraction sub=new Subtraction();
 		Multiply mul=new Multiply();
 		Division div = new Division();

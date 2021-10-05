@@ -7,8 +7,6 @@ public class BankInterface {
 		   Transaction trans = new Bank();
 		   trans.print();
 		   int amount=trans.withdrawAmount();
-		   System.out.println(amount);
-		   
+		   System.out.println(amount);	   
 	   }
-
 }
